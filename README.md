@@ -6,7 +6,7 @@ Uses the Yahoo Finance API. This can be installed by running ```pip install yaho
 Update to the latest version by running ```pip install yahoo_fin --Upgrade```
 
 # How It Works
-Through the options module of the Yahoo Finance API the script takes in the user input of a stock ticker and first views the expiration dates for that ticker's option chain. Looping through each date, the code stores data of both call and put options as lists and compares the Volume to Open Interest to determine if a contract is unusual or not. Generally, contracts that demonstrate Volume that is x2.5 that of the Open Interest are marked as unusual and outputted.
+Through the options module of the Yahoo Finance API the script takes in the user input of a stock ticker and first views the expiration dates for that ticker's option chain. Looping through each date, the code stores data of both call and put options as lists and compares the Volume to Open Interest to determine if a contract is unusual or not. Generally, contracts that demonstrate Volume that is x 2.5 that of the Open Interest are marked as unusual and outputted.
 
 # More to Come
 1) Additional file(s) to implement this code as a discord bot (users can utilize the command $TICKER_NAME and the bot will return any respective unusual activity)
